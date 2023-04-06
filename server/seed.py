@@ -3,7 +3,7 @@
 from app import app
 from models import db, Plant
 
-db.init_app(app)
+# db.init_app(app)
 
 with app.app_context():
 
